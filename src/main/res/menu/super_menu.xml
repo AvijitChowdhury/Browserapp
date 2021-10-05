@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_bacward"
+        android:icon="@drawable/backward"
+        android:title="Backward"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_forward"
+        android:icon="@drawable/forward"
+        android:title="Forward"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_about"
+        android:title="About" />
+    <item
+        android:id="@+id/menu_Developer"
+        android:title="Developer"/>
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="Refresh"/>
+</menu>
